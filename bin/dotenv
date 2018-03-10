@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+var dotenv = require("dotenv");
+var kexec = require("kexec");
+
+dotenv.config();
+
+var argv = process.argv;
+var pos = argv.indexOf(__filename);
+argv = argv.slice(pos + 1);
+
+kexec(argv.shift(), argv);
