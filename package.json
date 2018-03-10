@@ -1,5 +1,5 @@
 {
-  "name": "@a2ikm/dotenv-exec",
+  "name": "dotenv-exec",
   "version": "1.0.0",
   "description": "Exec command with dotenv.",
   "homepage": "https://github.com/a2ikm/node-dotenv-exec",
