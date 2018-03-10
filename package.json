@@ -1,13 +1,17 @@
 {
   "name": "@a2ikm/dotenv-exec",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Exec command with dotenv.",
+  "homepage": "https://github.com/a2ikm/node-dotenv-exec",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a2ikm/node-dotenv-exec"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Masato Ikeda <masato.ikeda@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "*",
     "kexec": "*"
