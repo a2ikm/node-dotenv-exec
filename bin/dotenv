@@ -3,10 +3,17 @@
 var dotenv = require("dotenv");
 var kexec = require("kexec");
 
-dotenv.config();
-
 var argv = process.argv;
 var pos = argv.indexOf(__filename);
+
+if (argv[pos + 1] == "-f") {
+  var path = argv[pos + 2]
+  dotenv.config({ path: path });
+  pos += 2
+} else {
+  dotenv.config();
+}
+
 argv = argv.slice(pos + 1);
 
 kexec(argv.shift(), argv);
