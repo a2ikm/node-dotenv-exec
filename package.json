@@ -1,6 +1,6 @@
 {
   "name": "dotenv-exec",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Exec command with dotenv.",
   "homepage": "https://github.com/a2ikm/node-dotenv-exec",
   "repository": {
